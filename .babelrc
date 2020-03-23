@@ -1,0 +1,32 @@
+{
+    "presets": [
+      [
+        
+        "@babel/preset-env",
+        // "react",
+        
+        // "stage-2",
+    //     "react-hot-loader/babel",
+    // "transform-object-rest-spread",
+    // "react",
+    // "@babel/preset-react",
+    // "es2015",
+    
+        {
+          "modules": "commonjs",
+          "targets": {
+            "node": "current"
+          }
+        }
+        // "@babel/preset-react"
+      ],
+      // "@babel/preset-react",
+      // ["stage-2"]"stage-2",
+      //  "stage-2"
+       "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+    //npm install @babel/plugin-proposal-class-properties --save-dev
+  }
